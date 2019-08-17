@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Start header CSS */
+.header__content {
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content span {
+    font-weight: 300;
+}
+
+.header__nav {
+    list-style-type: none;
+}
+
+.header__nav li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #252525;
+    font-size: 25px;
+}
+/* End header CSS */
+
+/* Start carousel CSS */
+.carousel__content {
+    width: 99%;
+    background-image: url('../images/architect.jpg');
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__content span:nth-child(1) {
+    font-size: 50px;
+    padding: 2px 20px;
+    background-color: rgba(21, 27, 32, 0.8);
+    color: #ffffff;
+    margin-right: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.carousel__content span:nth-child(2) {
+    color: white;
+    font-size: 50px;
+}
+/* End carousel CSS */
+
+/* Start projects CSS */
+
+/* End projects CSS */
