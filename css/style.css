@@ -177,3 +177,51 @@ body {
     font-weight: 700;
 }
 /* End about CSS */
+
+/* Start contact CSS */
+.contact_content {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.contact_content h1 {
+    margin-bottom: 10px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.contact_content .line {
+    border: 1px solid #cccccc;
+    margin-bottom: 40px;
+}
+
+.contact_content p {
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.contact_form input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    outline: none;
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.contact_form button {
+    background-color: #252525;
+    padding: 13px 30px;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+/* End contact CSS */
