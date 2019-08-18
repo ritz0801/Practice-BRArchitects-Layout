@@ -66,5 +66,114 @@ body {
 /* End carousel CSS */
 
 /* Start projects CSS */
+.projects_content {
+    width: 99%;
+    margin: 0 auto;
+}
 
+.projects_content h1 {
+    margin-bottom: 10px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.projects_content .line {
+    border: 1px solid #cccccc;
+    margin-bottom: 40px;
+}
+
+.projects_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+}
+
+.projects_item {
+    position: relative;
+}
+
+.projects_item img {
+    width: 100%;
+}
+
+.projects_item .projects_detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+    
+}
+
+.projects_item .projects_detail p {
+    color: white;
+    padding: 10px 40px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
 /* End projects CSS */
+
+/* Start about CSS */
+.about_content {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.about_content h1 {
+    margin-bottom: 10px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.about_content .line {
+    border: 1px solid #cccccc;
+    margin-bottom: 40px;
+}
+
+.about_content .about_intro {
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.about_members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+}
+
+.about_member img {
+    width: 100%;
+}
+
+.about_member h2 {
+    font-weight: 500;
+    margin: 14px 0;
+    font-size: 30px;
+}
+
+.about_member span {
+    font-size: 20px;
+    color: #989898;
+    font-weight: 700;
+}
+
+.about_member p {
+    font-size: 18px;
+    font-weight: 700;
+    width: 90%;
+}
+
+.about_member button {
+    width: 100%;
+    background-color: #f0f0ef;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* End about CSS */
